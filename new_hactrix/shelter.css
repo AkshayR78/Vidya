@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .daily-activities {
+    border-top: 1px solid #b8b7b7;
+    border-bottom: 1px solid #a7a1a1;
+    padding: 20px 0;
+  }
+  
+  .progress p {
+    margin: 10px 0;
+  }
+  
+  .progress p:last-child {
+    margin-bottom: 0;
+  }
+  
