@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #9c1f1f;
+            color: hsl(0, 25%, 52%);
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header-buttons img {
+            height: 24px;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f3f3f3;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #4e4646;
+            color: rgb(155, 89, 89);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .course {
+            margin-bottom: 30px;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        .course-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="VIDYA LOGO.png" alt="Vidya Logo" style="height: 80px;">
+
+        <div class="header-buttons">
+            <button onclick="searchButtonClick()">Search</button>
+
+            <button onclick="profileButtonClick()">Profile</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Course 1 -->
+        <div class="course">
+            <h2>Web Development Fundamentals</h2>
+            <video controls>
+                <source src="web-development-fundamentals.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="course-info">
+                <h3>Instructor</h3>
+                <p>John Doe</p>
+
+                <h3>Duration</h3>
+                <p>10 hours of video content</p>
+
+                <h3>Course Content</h3>
+                <ul>
+                    <li>Introduction to HTML and CSS</li>
+                    <li>Responsive Web Design Techniques</li>
+                    <li>JavaScript Basics and DOM Manipulation</li>
+                    <li>Introduction to Frontend Frameworks (e.g., React)</li>
+                    <li>Web Development Best Practices</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course">
+            <h2>Data Science Essentials</h2>
+            <video controls>
+                <source src="data-science-essentials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="course-info">
+                <h3>Instructor</h3>
+                <p>Jane Smith</p>
+
+                <h3>Duration</h3>
+                <p>8 hours of video content</p>
+
+                <h3>Course Content</h3>
+                <ul>
+                    <li>Introduction to Data Science</li>
+                    <li>Data Analysis with Python</li>
+                    <li>Machine Learning Fundamentals</li>
+                    <li>Data Visualization Techniques</li>
+                    <li>Real-world Data Science Projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course">
+            <h2>Introduction to Graphic Design</h2>
+            <video controls>
+                <source src="graphic-design-intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="course-info">
+                <h3>Instructor</h3>
+                <p>Alice Johnson</p>
+
+                <h3>Duration</h3>
+                <p>6 hours of video content</p>
+
+                <h3>Course Content</h3>
+                <ul>
+                    <li>Principles of Graphic Design</li>
+                    <li>Color Theory and Typography</li>
+                    <li>Adobe Creative Suite Overview</li>
+                    <li>Creating Digital Artwork</li>
+                    <li>Designing for Print and Web</li>
+                </ul>
+            </div>
+        </div>
+
+        
+
+
+
