@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="breadcrumb">
+        <div class="breadcrumb-item left">
+          <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">Categories</button>
+            <div class="dropdown-content" id="dropdownContent">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+        </div>
+        <div class="breadcrumb-item middle">
+          <img src="Vidyalogo.png" alt="Logo">
+        </div>
+        <div class="breadcrumb-item right">
+          <input type="text" placeholder="Search...">
+          <button class="profile-btn">Profile</button>
+        </div>
+      </div>
+      
+      
+      
+  </div>
+  <div id="container">
+    <h1>Upload Video</h1>
+    <input type="file" id="video-file" accept="video/*">
+    <button id="upload-button">Upload</button>
+    <div id="status"></div>
+    <div id="progress"></div>
+    <div id="file-list"></div>
+    <div id="topics">
+      <div class="topics-container">
+        <h2>Topics Completed</h2>
+        <h3>Topic 1</h3>
+        <h3>Topic 2</h3>
+        <ul id="completed-topics" class="topics-list"></ul>
+      </div>
+      <div class="topics-container">
+        <h2>Topics Requested</h2>
+        <h3>Topic 1</h3>
+        <h3>Topic 2</h3>
+        <ul id="requested-topics" class="topics-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
